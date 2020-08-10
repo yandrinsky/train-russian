@@ -1,0 +1,42 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+.navbar{
+	background-color: #303f9f;
+	padding: 0 20px;
+	position: relative;
+	z-index: 10;
+}
+
+.navbar li a {
+	font-size: 15px;
+}
+
+.menu-icon .material-icons{
+	font-size: 30px;
+}
+.brand-logo {
+	position: relative;
+}
+.brand-logo span {
+    font-size: 15px;
+    position: absolute;
+    right: -27px;
+    top: -12px;
+    color: #ED0000;
+}
+nav .sidenav-trigger{
+	z-index: 99999999;
+}
+
+@media screen and (max-width: 360px){
+	.brand-logo{
+		font-size: 	25px !important;
+	}
+}
+
+@media screen and (max-width: 350px){
+	.tab a{
+		font-size: 14px !important;
+	}
+}

@@ -1,0 +1,13 @@
+{{> head}}
+{{> nav}}
+	{{{ body }}}
+
+{{#compare name '!=' 'base'}}
+{{#compare name '!=' 'simulator'}}
+{{#compare name '!=' 'cabinet'}}
+	{{> footer}}
+{{/compare}}
+{{/compare}}
+{{/compare}}
+
+{{> foot}}

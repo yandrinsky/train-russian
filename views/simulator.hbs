@@ -1,0 +1,62 @@
+<!--Начало всплывающей формы -->
+
+    <!-- Отвечает за затемнение контента под всплывающей формой -->
+    <div class="form-bg-settings"></div>
+    <!-- Отвечает за затемнение контента под всплывающей формой -->
+    
+
+    <!--Сама форма начало -->
+    <div class="form-wrap">
+       <div class="form-box-settings">
+            <div class="close-unavailable">
+                <i class="large material-icons">close</i>
+            </div>
+            <div class="form__title-settings form__title">
+                Настройки тренажёра
+            </div>
+            <div class="form__text-settings form__text">
+               Показывать слова
+            </div>
+            <div class="input-field col s12">
+                <select>
+                    <option value="all">Все</option>
+                    <option value="syll-1">Ударение на первый слог</option>
+                    <option value="syll-2">Ударение на второй слог</option>
+					<option value="syll-3">Ударение на третий слог</option>
+                    {{#if isAuthentificated}}
+					<option value="learn">Выучить</option>
+                    {{/if}}
+                </select>
+            </div>
+        </div> 
+    </div>
+    
+     <!--Сама форма конец -->
+
+<!--Конец всплывающей формы --> `
+
+
+
+<section class="window-section">
+	<div class="window">
+		<div class="wrap">
+			<div class="settings">
+				 <i class="material-icons">settings</i>
+			</div>
+            <div class="message hidden">
+                <div class="message__wrap">
+                    <p class="message__text">
+                        необходимо авторизоваться
+                    </p>
+                </div>        
+            </div>
+			<div class="word"></div>
+            {{#if isAuthentificated}}
+				<a class="waves-effect waves-light btn-small learnWord hidden ">Выучить!</a>
+            {{else}}
+                <a class="waves-effect waves-light btn-small learnWord hidden addNotAuth">Выучить!</a>
+            {{/if}}
+			
+		</div>
+	</div>	
+</section>

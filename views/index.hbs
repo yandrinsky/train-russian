@@ -1,0 +1,409 @@
+<section class="first-section">
+	<div class="parallax-container parallax-container_banner">
+      	<div class="parallax"><img src="img/flag.jpg"></div>
+      	<div class="row">
+			<div class="col s8 offset-s2">
+				<div class="demo">
+					<div class="demo__title">
+						<p>
+							Знать ударения - это быть дойстойным гражданином РФ
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section id="second" class="second-section">
+	<div class="container">
+		<div class="row">
+		    <div class="col s12">
+		      <ul class="tabs tabsy">
+		      	<li class="tab col s4"><a {{#if isSimulatorMain}} class="active !simulator" {{/if}} href="#simulator">Тренажёр</a></li>
+		        <li class="tab col s4"><a  id="theoryCheck" {{#if isTheoryMain}} class="active !theory" {{/if}} href="#theory">Теория</a></li>
+		        <li class="tab col s4"><a href="#video">Видео</a></li>
+		        
+		      </ul>
+		    </div>
+
+		    <div id="simulator" class="col s12 tabs-child">
+				<div class="tabs_container">
+		    		<div class="tabs__title">
+		    			Тренажёр
+		    		</div>
+		    		<div class="tabs__text">
+		    			Наш тренажёр - это возможность удобно учить и тренировать ударения.
+		    		</div>
+		    		<div class="simulator__step simulator__step_1" data-aos="zoom-in" >
+		    			<p class="step__title">
+		    				Вы видите слово
+		    			</p>
+		    			<div class="step__example">
+		    				<div class="word">
+		    					
+		    				</div>
+		    			</div>
+						
+		    		</div>
+		    		<div class="simulator__step simulator__step_2" data-aos="zoom-in" >
+		    			<p class="step__title">
+		    				Вы выбираете правильный ударный глассный
+		    			</p>
+		    			<div class="step__example">
+		    				<div class="word">
+		    					
+		    				</div>
+		    			</div>
+						
+		    		</div>
+		    		<div class="simulator__step simulator__step_3" data-aos="zoom-in" >
+     
+		    			<p class="step__title">
+		    				Или неправильный...
+		    			</p>
+		    			<div class="step__example">
+		    				<div class="word">
+		    					
+		    				</div>
+		    			</div>
+						
+		    		</div>
+
+		    		<div class="simulator__step simulator__step_4" data-aos="zoom-in" >
+		    			<p class="step__title">
+		    				Вы добавляете трудное слово в "выучить!"
+		    			</p>
+		    			<div class="step__example">
+		    				<a class="waves-effect waves-light btn-small learnWord">Выучить!</a>
+		    			</div>
+						
+		    		</div>
+
+		    		<div class="simulator__step simulator__step_5" data-aos="zoom-in" >
+		    			<p class="step__title">
+		    				И учите его!
+		    			</p>
+		    			<a class="waves-effect waves-light btn start-btn" href="/simulator">Начать</a>
+		    		</div>
+		    	</div>
+		    </div>
+
+		    <div id="theory" class="col s12 tabs-child">
+		    	<div class="tabs_container">
+		    		<div class="tabs__title">
+		    			Блок теории
+		    		</div>
+		    		<div class="tabs__text">
+		    			Мы собрали тьму теории, которая вам пригодится.
+		    		</div>
+		    		<div class="theory__title">Ударения в существительных</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							1
+						</div>
+						<div>
+							Слова иноязычного происхождения, как правило, в русском языке сохраняют место ударения, какое они имели в языке-источнике. В английском языке cлова чаще всего имеют ударения на первом слоге, а во французском – на последнем. Поэтому английские заимствования звучат так: <span class="theory__rule-example">гЕнезис, мАркетинг, мЕнеджмент, пОртер</span> ; а французские так: <span class="theory__rule-example">гравЁр, диспансЕр, жалюзИ, каучУк, партЕр, пюпИтр, шассИ. </span>
+						</div>
+		    			
+		    		</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							2
+						</div>
+						<div>
+							В словах, обозначающих меры длины и оканчивающиеся на -метр, ударение падает на последний слог: <span class="theory__rule-example">киломЕтр, сантимЕтр, миллимЕтр, децимЕтр.</span>  
+						</div>
+		    		</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							3
+						</div>
+						<div>
+							В сложных словах со второй частью -провод при общем значении «приспособление для транспортировки какого-либо вещества или энергии» ударение падает на корень -вод-: <span class="theory__rule-example">бензопровОд, водопровОд, мусоропровОд, светопровОд.</span> НО: <span class="theory__rule-example">электропрОвод, электропрИвод.</span> 
+						</div>
+		    		</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							4
+						</div>
+						<div>
+							В словах, оканчивающихся на -лог, ударение падает, как правило, на последний слог: <span class="theory__rule-example">диалОг, каталОг, монолОг, некролОг</span> 					 
+						</div>
+		    		</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							5
+						</div>
+						<div>
+							 В отглагольных существительных сохраняется место ударения, что в исходном глаголе, от которого они образованы: (веру) исповЕдать – вероисповЕдание обеспЕчить – обеспЕчение.	
+							 <span class="theory__rule-example">вероисповЕдание обеспЕчить – обеспЕчение.</span> 			 
+						</div>
+		    		</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							6
+						</div>
+						<div>
+							  В некоторых существительных ударение является неподвижным и остаётся на корне во всех падежах: 
+							<span class="theory__rule-example">аэропОрт – аэропОрты;
+
+								бАнт – бАнты – с бАнтами;
+
+								бухгАлтер – бухгАлтеров;
+
+								Икс – с Иксом – Иксы – Иксов;
+
+								крАн – крАны;
+
+								лЕктор – лЕкторы – лЕкторов;
+
+								тОрт – с тОртом – тОрты – тОртами;
+
+								шАрф – шАрфа – шАрфы – шАрфов. </span> 		 
+						</div>
+		    		</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							7
+						</div>
+						<div>
+							 В существительном <span class="theory__rule-example">бАловень</span> ударение падает на корень. Во всех словах, образованных от этого слова, ударение на -БАЛ- НЕ падает: <span class="theory__rule-example">балОванный, баловАть, балУю, балУясь, избалОванный, набаловАть</span> 								 		 
+						</div>
+		    		</div>
+					<div class="theory__title">Ударения в прилагательных</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							1
+						</div>
+						<div>
+							  В некоторых прилагательных ударение такое же, как и в исходных существительных, от которых они образованы: <span class="theory__rule-example">слИва – слИвовый, кУхня – кУхонный, щавЕль – щавЕлевый.</span>	 		 
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							2
+						</div>
+						<div>
+							Ударный слог полной формы некоторых прилагательных остаётся ударным и в краткой форме:<span class="theory__rule-example">красИвый – красИв – красИва – красИво – красИвы, немЫслимый – немЫслим – немЫслима – немЫслимо – немЫслимы.</span> 		 
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							3
+						</div>
+						<div>
+							 В некоторых частотных прилагательных с подвижным ударением оно падает на корень в полной форме – в единственном и множественном числе; а также в краткой – в мужском и среднем роде. В краткой форме женского рода ударение переходит на окончание:<span class="theory__rule-example">прАвый – прАв – прАво – прАвы – правА, стрОйный – стрОен – стрОйно – стрОйны – стройнА. </span> 		 
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							4
+						</div>
+						<div>
+							  Если ударение в краткой форме женского рода падает на окончание, то в сравнительной форме оно будет на суффиксе -Е- или-ЕЕ-:<span class="theory__rule-example">больнА – больнЕе, сильнА – сильнЕе, стройнА – стройнЕе.</span>  Если же ударение в женском роде стоит на основе, то в сравнительной степени оно там и сохраняется: <span class="theory__rule-example">красИва – красИвее, печАльна – печАльнее. </span>		 
+						</div>
+					</div>
+					<div class="theory__title">Ударения в глаголах</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							1
+						</div>
+						<div>
+							  Ударение в глаголах прошедшего времени обычно падает на тот же слог, что и инфинитиве:<span class="theory__rule-example">гулЯть – гулЯл, гулЯла, прЯтать – прЯтал, прЯтала.</span> 	 
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							2
+						</div>
+						<div>
+							  В другой группе глаголов ударение во всех формах неподвижно, а в женском роде прошедшего времени переходит на окончание: <span class="theory__rule-example">брАть – брАл, бралА, брАло, брАли; лгАть – лгАл, лгалА, лгАло, лгАли</span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							3
+						</div>
+						<div>
+							  У глаголов класть, красть, красться, слать, послать, отослать ударение в форме женского рода прошедшего времени НЕ падает на окончание, а остаётся на основе: <span class="theory__rule-example">клАла, крАла, крАлась, слАла, послАла, отослАла.</span> Исключение составляют глаголы с ударной приставкой ВЫ-, которая всегда перетягивает ударение: <span class="theory__rule-example">лилА – вЫлила, крАла – вЫкрала. </span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							4
+						</div>
+						<div>
+							В глаголах, оканчивающихся на -ИТЬ, при спряжении ударение падает на окончания: -ИШЬ, -ИТ, -ИМ, -ИТЕ, -АТ/-ЯТ: <span class="theory__rule-example">включИть – включИшь, включИт, включИм, включИте, включАт;
+
+							вручИть – вручИшь, вручИт, вручИм, вручИте, вручАт;
+
+							кровоточИть – кровоточИшь, кровоточИт, кровоточИм, кровоточИте, кровоточАт.
+
+							По той же схеме спрягаются глаголы: звонИть, исключИть, наделИть, накренИться, насорИть, обзвонИть, облегчИть.</span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							5
+						</div>
+						<div>
+							  В следующих глаголах, оканчивающихся на –ИТЬ, ударение НЕ падает на окончание: <span class="theory__rule-example">опОшлить – опОшлят, освЕдомиться – освЕдомишься.</span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							6
+						</div>
+						<div>
+							   В глаголах, образованных от имён прилагательных, ударение чаще всего падает на -ИТЬ:<span class="theory__rule-example">быстрый – убыстрИть, острый – обострИть, лёгкий – облегчИть, бодрый – ободрИть, глубокий – углубИть.</span> НО: глагол <span class="theory__rule-example">озлОбить</span>, образованный от прилагательного злой, этому правилу не подчиняется. 
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							7
+						</div>
+						<div>
+							   В возвратных глаголах ударение в форме прошедшего времени часто переходит на окончание или суффикс (в глаголах прошедшего времени мужского рода): <span class="theory__rule-example">начАться – началсЯ, началАсь, началОсь, началИсь, принЯться – принялсЯ, принялАсь, принялОсь, принялИсь.</span>
+						</div>
+					</div>
+					<div class="theory__title">Ударения в причастиях</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							1
+						</div>
+						<div>
+							  В действительных причастиях прошедшего времени с суффиксом -ВШ- ударение, как правило, падает на ту же гласную, что стоит в слове перед этим суффиксом: <span class="theory__rule-example">зажИвший, налИвший, посмотрЕвший.</span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							2
+						</div>
+						<div>
+							  В страдательных причастиях прошедшего времени, образованных от глаголов изогнуть, загнуть, согнуть ударение падает на приставку: <span class="theory__rule-example">изОгнутый, зАгнутый, сОгнутый </span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							3
+						</div>
+						<div>
+							   В кратких страдательных причастиях прошедшего времени женского рода ударение падает на окончание: <span class="theory__rule-example">занятА, запертА, заселенА, нажитА, налитА, ободренА, снятА, созданА. </span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							4
+						</div>
+						<div>
+							   Если ударение в полной форме падает на суффикс -ЁНН-, то в краткой форме оно сохраняется только в мужском роде, а в остальных формах переходит на окончание: <span class="theory__rule-example">включЁнный – включЁн, включенА, включенО, включенЫ</span> По той же схеме изменяются причастия:<span class="theory__rule-example">наделЁнный, низведЁнный, ободрЁнный, отключЁнный, повторЁнный, поделЁнный, приручЁнный.</span>
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							5
+						</div>
+						<div>
+							   В полных формах причастий с суффиксом -Т-, образованных от глаголов с суффиксами -О- и -НУ- в инфинитиве, ударение падает на один слог вперёд: <span class="theory__rule-example">полОть – пОлотый, колОть – кОлотый, согнУть – сОгнутый, завернУть – завЁрнутый.</span>
+						</div>
+					</div>
+					<div class="theory__title">Ударения в деепричастиях</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							1
+						</div>
+						<div>
+							    Деепричастия часто имеют ударение на том же слоге, что и в инфинитиве глагола, от которого они образованы: <span class="theory__rule-example">задАть – задАв, залИть – залИв, занЯть – занЯв, начАть – начАв, поднЯть – поднЯв, предпринЯть – предпринЯв, создАть – создАв. </span> 
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							2
+						</div>
+						<div>
+							    В деепричастиях с суффиксом -ВШ-, -ВШИ- ударение падает на гласную букву, которая стоит в слове перед этими суффиксами: <span class="theory__rule-example">начАв, отдАв, поднЯв, прибЫв, начАвшись.</span>
+						</div>
+					</div>
+					<div class="theory__title">Ударения в наречиях</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							1
+						</div>
+						<div>
+							    На приставку ДО- ударение падает в следующих наречиях: <span class="theory__rule-example">дОверху, дОнизу, дОсуха</span>. НО:<span class="theory__rule-example"добелА, донЕльзя.></span> 
+						</div>
+					</div>
+					<div class="theory__rule">
+						<div class="theory__rule-number">
+							2
+						</div>
+						<div>
+							    На приставку ЗА- ударение падает в словах: <span class="theory__rule-example">зАгодя, зАтемно, зАсветло.</span> НО: <span class="theory__rule-example">завИдовать – завИдно.</span>
+						</div>
+					</div>
+		    		
+		    	</div>
+		    </div>
+
+		    <div id="video" class="col s12 tabs-child">
+				<div class="tabs_container">
+		    		<div class="tabs__title">
+		    			Видео уроки
+		    		</div>
+		    		<div class="tabs__text">
+		    			Мы подготовили видеоматериал, который поможет вам лучше понять сухую теорию.
+		    		</div>
+					<div id="videoPlace">
+						<iframe  src="https://www.youtube.com/embed/FBXOagvmYLw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					
+		    	</div>
+		    </div>
+	  </div>
+	</div>
+	 
+</section>
+<section class="third-section">
+	<div class="parallax-container parallax-container_about">
+      	<div class="parallax"><img src="img/bg-about.jpg"></div>
+      	<div class="row">
+			<div class="col m8 s10 offset-m2 offset-s1">
+				<div class="third__title">О нас</div>
+				<div class="third__text">	
+					Мы - команда из 3 человек, которая преследует цель повысить уровень грамотности населения РФ и помочь школьникам подготовиться к ЕГЭ.
+				</div>
+			</div>	
+			<div class="carousel about-carous">
+				<a class="carousel-item"  data-name="vlad"><img src="img/vlad.jpg"></a>
+				<a class="carousel-item" data-name="serega"><img src="img/serega.jpg"></a>
+				<a class="carousel-item" data-name="ilya"><img src="img/ilya.jpg"></a>
+			</div>	
+			<div class="third__picture-info">
+				<div class="picture-info__name">
+					<a href="https://vk.com/rageandscream" target="blank">Влад Яндринский</a>
+				</div>
+				<div class="picture-info__work">
+					Разработчик, автор идеи проекта
+				</div>
+			</div>	
+		</div>
+
+	</div>
+</section>
+{{#if isTheoryMain}}
+<script src="https://ajax.googleapis.com/ajax/libs/
+jquery/3.4.1/jquery.min.js"></script>
+<script>
+	window.onload = $(function(){
+		setTimeout(()=>{
+			var dist = $('#theoryCheck').offset().top;
+			$('html, body').animate({'scrollTop': dist}, 800);	
+			return false;
+		}, 1000)
+		
+	})
+</script>
+{{/if}}

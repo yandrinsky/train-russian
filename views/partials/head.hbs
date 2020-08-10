@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width'>
+	<title>{{title}}</title>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	{{#if isIndex}}
+	<link rel="stylesheet" href="css/simulator.css">
+	<link rel="stylesheet" href="css/index.css">
+	{{/if}}
+	{{#if isSimulator}}
+	<link rel="stylesheet" href="css/simulator.css">
+	{{/if}}
+	{{#if isBase}}
+	<link rel="stylesheet" href="css/dataBase.css">
+	{{/if}}
+	{{#if isAuth}}
+	<link rel="stylesheet" href="css/auth.css">
+	{{/if}}
+	{{#if isCabinet}}
+	<link rel="stylesheet" href="css/cabinet.css">
+	{{/if}}
+	<link rel="stylesheet" href="css/form.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/nav.css">
+</head>
+<body>

@@ -1,0 +1,30 @@
+
+	<script src="https://ajax.googleapis.com/ajax/libs/
+	jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="js/fast.js"></script>
+	{{#if isIndex}}
+	<script src="js/jquery.touchSwipe.min.js"></script>
+	<script src="js/simulator-example.js"></script>
+	<script src="js/index.js"></script>
+	{{/if}}
+	{{#if isSimulator}}
+	<script src="js/simulator.js"></script>
+	<script src="js/addToLearn.js"></script>
+	<script src="js/form-settings.js"></script>
+	{{/if}}
+	{{#if isBase}}
+	<script src="js/dataBase.js"></script>
+	{{/if}}
+	{{#if isAuth}}
+	<script src="js/auth.js"></script>
+	{{/if}}
+	{{#if isCabinet}}
+	<script src="js/cabinet.js"></script>
+	{{/if}}
+	<script src="js/nav.js"></script>
+	<script src="js/form.js"></script>
+
+</body>
+</html>

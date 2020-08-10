@@ -1,0 +1,17 @@
+<div class="area"></div>
+<textarea name="text" id="textAr" cols="30" rows="10"></textarea>
+<div class="confirmation hidden">
+    <div class="confirmation__wrap">
+        <div class="close">закрыть</div>
+        <p>Это действие удалит все слова из базы данных</p>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password">
+        <button class="btn-confirmation">подтвердить</button>
+        <div class="message-file"></div>
+    </div>
+    
+</div>
+<div class="server-answer"></div>
+<button id="textButton" onclick="getText('#textAr')">Отправить</button>
+<button id="clearDB" onclick="clearDB()"onclick="" class="hidden">Удалить базу данных</button>
+

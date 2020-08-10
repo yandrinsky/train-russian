@@ -1,0 +1,141 @@
+.form-bg, 
+.form-bg-settings{
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 100000000000000 !important;
+	background-color: #000;
+	opacity: .42;
+	display: none;
+
+
+}
+
+.form-wrap{
+	margin: 0 10px;
+}
+.form-box,
+.form-box-settings{
+	font-family: 'Oswald', sans-serif;
+	background-color: #2B2785;
+	color: #fff;
+	max-width: 492px;
+	width: 95%;
+	min-height: 300px;
+	padding: 50px 45px 30px 45px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	z-index: 1000000000000000 !important;
+	display: none;
+}
+
+.form-box input{
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #888888;
+	padding-bottom: 12px;
+	margin-bottom: 50px;
+	padding: 0 12px 12px 12px;
+	box-shadow: none;
+}
+
+.form-box input::placeholder{
+	text-align: center;
+	font-size: 18px;
+}
+
+.form__title{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 70px;
+	font-weight: bold;
+}
+
+.form__text{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 63px;
+}
+.form__title-settings{
+	margin-bottom: 20px;
+}
+.form__text-settings{
+	margin-bottom: 20px;
+}
+
+.form__text span{
+	color: #ED0000
+}
+
+input.form__btn{
+	padding: 0;
+	height: 55px;
+	padding: 0px 31px 0px 31px;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 10px;
+	background-color: #0040FF;
+	position: relative;
+	margin-bottom: 27px;
+
+}
+.form__text-before{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	max-width: 260px;
+	display: block;
+	margin: 0 auto;
+}
+
+.close-unavailable{
+	position: absolute;
+	top: 17px;
+	right: 16px;
+	cursor: pointer;
+}
+.close-unavailable i{
+	font-size: 20px;
+}
+.close-unavailable i:hover{
+	color: #ED0000;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.dropdown-content.select-dropdown{
+	top: 135px;
+}
+.select-dropdown.dropdown-trigger{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+.select-wrapper .caret {
+    fill: #fff;
+}
+
+.dropdown-content li > a, .dropdown-content li > span{
+	color: #303F9F;
+}
+@media screen and (max-width: 520px){
+	.form .form__btn{
+		font-size: 18px;
+		padding: 0;
+	}
+	.form__title{
+		font-size: 35px;
+	}
+
+		
+
+
+}

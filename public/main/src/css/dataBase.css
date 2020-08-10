@@ -1,0 +1,26 @@
+textarea{
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 500px;
+    z-index: 2;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textButton{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 10px;
+
+}

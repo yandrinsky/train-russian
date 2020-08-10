@@ -1,0 +1,109 @@
+textarea{
+	border: 1px solid #000;
+	border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    z-index: 2;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 300px;
+}
+
+#textButton{
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 10px;
+    z-index: 9;
+
+}
+
+.hidden{
+    display: none;
+}
+.confirmation{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #FF0000;
+    z-index: 10;
+    background-color: #303F9F;
+    color: #fff;
+    padding: 5px;
+}
+
+.confirmation__wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.confirmation__wrap p{ 
+    color: #FF0000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.confirmation__wrap button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+}
+.confirmation__wrap .message{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.message.good{
+    color: #55EA3E;
+}
+.message.bad{
+    color: #FF0000;
+}
+
+.confirmation .close{
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+.area{
+    width: 30px;
+    height: 30px;
+}
+
+.server-answer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 110px;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+}
+.server-answer p.bad{
+    color: red;
+    margin: 0;
+}
+.server-answer p.good{
+    color: green;
+    margin: 0;
+}
+#clearDB{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 100px;
+}

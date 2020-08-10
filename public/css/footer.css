@@ -1,0 +1,9 @@
+.page-footer{
+	background-color: #212121;
+}
+
+
+.page-footer li a:hover{
+	color: #039BE5 !important;
+}
+

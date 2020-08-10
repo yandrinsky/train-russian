@@ -1,0 +1,38 @@
+<header class="header">
+	<nav class="navbar z-depth-4">
+	    <div class="nav-wrapper">
+	      <a href="/" class="brand-logo">Train-Russian <span>beta</span></a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">	
+			  <li class="theory"><a href="/theory">Теория</a></li>       
+			{{#if isAuthentificated}}
+	        	<li ><a href="/simulator">Тренажёр</a></li>
+				{{#if isAdmin}}
+				<li class=""><a href="/base">База</a></li>
+				{{/if}}
+				<li class=""><a href="/cabinet">Кабинет</a></li>
+				<li class=""><a href="/auth/endSession">Выйти</a></li>
+			{{else}}
+	        	<li ><a href="/simulator">Тренажёр</a></li>
+				<li class=""><a href="/auth">Войти</a></li>
+			{{/if}}
+	      </ul>
+	      <a data-target="slide-out" class="sidenav-trigger menu-icon"><i class="material-icons">menu</i></a>
+	    </div>
+	 </nav>
+	 <ul id="slide-out" class="sidenav">
+	    <li><div class="user-view">
+			<li class=""><a href="/theory">Теория</a></li>
+		{{#if isAuthentificated}}
+			<li ><a href="/simulator">Тренажёр</a></li>
+			{{#if isAdmin}}
+			<li class=""><a href="/base">База</a></li>
+			{{/if}}
+			<li class=""><a href="/cabinet">Кабинет</a></li>
+			<li class=""><a href="/auth/endSession">Выйти</a></li>
+		{{else}}
+			<li ><a href="/simulator">Тренажёр</a></li>
+			<li class=""><a href="/auth">Войти</a></li>
+		{{/if}}
+  	</ul>
+
+</header>
